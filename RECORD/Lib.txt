@@ -1,23 +1,10 @@
-f1 = open("E://BCA//Lib.txt", "w")
-
-for i in range(0, 10):
-
-    accno = int(input("Enter Accno:"))
-    bookname = input("Enter Bookname:")
-    author = input("Enter Author:")
-    publisher = input("Enter Publisher:")
-    noofcopies = int(input("Enter Noofcopies: "))
-
-    f1.write(str(accno) + " " + bookname + " " + author + " " +
-             publisher + " " + str(noofcopies) + "\n")
-
-f1.close()
-
-f1 = open("E://BCA//Lib.txt", "r")
-
-record = f1.read()
-
-print("Library Records are:\n")
-print(record)
-
-f1.close()
+100 python james ABC 5
+102 java Herbert XYZ 5
+103 C Dennis PQR 34
+104 C++ Dennis PQR 5
+105 HTML Tim Abc 5
+106 SQL john xyz 7
+107 php rasmus pqr 7
+108 java brenden abc 4
+109 css hakon xyz 5
+110 rust adrain lmn 7
